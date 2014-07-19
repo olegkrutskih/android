@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Инвентаризация ММ</string>
+    <string name="action_settings">Настройки</string>
+    <string name="update_db">Обновить БД</string>
+
+    <string-array name="titles">
+		<item>RecalcRAO</item>        
+        <item>Recalc1</item>
+        <item>Recalc2</item>
+        <item>Recalc3</item>        
+    </string-array>
+
+    <array name="icons">
+        <item>@drawable/recalc</item>
+        <item>@drawable/m</item>
+        <item>@drawable/m</item>
+        <item>@drawable/m</item>
+        <item>@drawable/m</item>        
+    </array>
+
+</resources>

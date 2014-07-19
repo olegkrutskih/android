@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/artr_id"
+            android:layout_width="10sp"
+            android:layout_height="10sp"
+            android:text="_id"            
+            android:textSize="10sp" />
+        
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arname"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="arcode" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvQuant"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="right"
+        android:text="0"
+        android:textSize="25sp" />
+
+</LinearLayout>
